@@ -5,11 +5,11 @@
   </head>
   <body>
     <a-assets>
-        <img id="sky" src="assets/Beach2.jpg">
-        <a-assets-item id="umbrella" src="assets/Umbrella.obj"></a-assets-item>
-        <img id="umbrellaT" src="Assets/Umbrella.jpg">
-        <a-assets-item id="chair" src="assets/chair.obj"></a-assets-item>
-        <img id="bball" src="assets/bball.jpg">
+        <img id="sky" src="P3Assets/Beach.jpeg">
+        <a-assets-item id="umbrella" src="P3Assets/Umbrella.obj"></a-assets-item>
+        <img id="umbrellaT" src="P3Assets/Umbrella.jpg">
+        <a-assets-item id="chair" src="P3Assets/chair.obj"></a-assets-item>
+        <img id="bball" src="P3Assets/bball.jpg">
     </a-assets> 
     <a-scene>
       <a-obj-model src="#umbrella" position="0 -25 -50" scale=".25 .25 .25" rotation="270" material="shader:flat;src:#umbrellaT"></a-obj-model>
@@ -17,7 +17,7 @@
       <a-sphere src="#bball" position="-5 -25 -45" rotation="30 -20 60" scale="3 3 3"></a-sphere>
       <a-sky src="#sky"></a-sky>
 
-      <a-light light="color: #ffffff; intensity: 1000; type: point"></a-light>
+      <a-light light="color: #ffffff; intensity: 300; type: point"></a-light>
     </a-scene>
   </body>
 </html>
